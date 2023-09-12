@@ -1,0 +1,34 @@
+
+li {
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+nav {
+    width: 80%;
+}
+
+.brandContainer {
+    display: flex;
+    gap: 1rem;
+}
+.logoNavbar {
+    width: 2rem;
+    height: 2rem;
+
+}

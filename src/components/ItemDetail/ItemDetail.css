@@ -1,0 +1,28 @@
+.container {
+    max-width: 1140px;
+    padding-inline: 1.5rem;
+    margin: 0 auto;
+}
+  
+
+.productDetail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 5rem;
+    margin: 3rem 3rem;
+}
+
+img {
+    width: 50%;
+}
+
+.category {
+    text-transform: uppercase;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 600;
+}
+

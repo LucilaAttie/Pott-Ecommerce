@@ -1,0 +1,49 @@
+.contenedorProductos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+    row-gap: 5rem;
+    margin: 3rem 3rem;
+}
+
+.productoInfo {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    
+}
+
+.productoTitulo, .productoPrecio {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.productoTitulo {
+    font-weight: 200;
+    text-align: left;
+}
+
+.productoPrecio {
+    font-weight: 600;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+.verDetalle {
+    width: 100%;
+    background: rgb(239, 239, 239);
+    color: black;
+    border: 0;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.verDetalle:hover {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: white;
+    border: 0;
+    border-radius: 50px;
+    padding: 5px;
+    
+}
