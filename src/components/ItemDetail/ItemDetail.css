@@ -26,3 +26,18 @@ img {
     font-weight: 600;
 }
 
+.boton {
+    padding: 1rem 1rem;
+    border: none;
+    background-color: #f5e1ff;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 200;
+}
+
+.boton:hover {
+    background-color: #25142d;
+    color: #f5e1ff;
+    font-weight: 400;
+    
+}
