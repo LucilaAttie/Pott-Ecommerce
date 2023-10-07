@@ -1,11 +1,16 @@
 .cardProducto {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 2rem o;
+    margin: 1.5rem 0;
+    
 }
 
 .imgProducto {
     width: 100%;
     border-radius: 20px;
 }
+
+.productoTitulo {
+    padding-left: 10px;
+}
+

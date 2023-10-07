@@ -26,7 +26,7 @@ img {
     font-weight: 600;
 }
 
-.boton {
+.finalizarCompra {
     padding: 1rem 1rem;
     border: none;
     background-color: #f5e1ff;
@@ -35,9 +35,21 @@ img {
     font-weight: 200;
 }
 
-.boton:hover {
+.finalizarCompra:hover {
     background-color: #25142d;
     color: #f5e1ff;
     font-weight: 400;
     
+}
+
+.seguirComprando {
+    background-color: #ffffff;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.seguirComprando:hover {
+    background-color: #ffffff;
+    color: black;
+    font-weight: 600;
 }

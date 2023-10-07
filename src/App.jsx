@@ -14,14 +14,11 @@ import { CartProvider } from './context/CarritoContext';
 import Cart from './components/Cart/Cart';
 import Checkout from './components/Checkout/Checkout';
 
-// import Products from './components/Products/Products';
-// import Formulario from './components/Formulario/Formulario';
 
 const App = () => {
   return (
     <div className='font-link'>
-      {/* <Products/> */}
-      {/* <Formulario/> */}
+    
       <BrowserRouter>
         <CartProvider>
           <Navbar/>

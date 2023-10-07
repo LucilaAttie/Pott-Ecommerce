@@ -1,0 +1,43 @@
+.checkout {
+    margin: 10%;
+}
+
+
+
+.itemsCheckout {
+    width: 600px;
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+h4 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-group {
+    padding: 10px;   
+}
+
+input {
+    /* background-color: rgb(233, 233, 233);  */
+    border: none; 
+    border-bottom: 1px solid black; 
+    padding: 5px; 
+    margin-left: 20px;
+}
+
+.finalizarCompra {
+    margin-top: 20px;
+    background-color: #f5e1ff;
+    font-weight: 600;
+    
+}
+
+.finalizarCompra:hover {
+    background-color: #25142d;
+    color: #f5e1ff;
+    font-weight: 600;
+}

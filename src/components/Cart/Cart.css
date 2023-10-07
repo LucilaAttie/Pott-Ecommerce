@@ -1,0 +1,52 @@
+.carritoVacio {
+    text-align: center;
+    margin-top: 5rem;
+} 
+
+
+.cartDetail {
+    margin: 10%;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: end;
+}
+
+.cartButtons {
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    width: 500px;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+
+.cartButtons > * {
+    padding: 0.5rem 0.5rem;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.vaciarCarrito {
+    background-color: #ffffff;
+    font-weight: 300;
+}
+
+.vaciarCarrito:hover {
+    background-color: #ffffff;
+    color: black;
+    font-weight: 600;
+}
+
+.finalizarCompra {
+    background-color: #f5e1ff;
+    font-weight: 600;
+    
+}
+
+.finalizarCompra:hover {
+    background-color: #25142d;
+    color: #f5e1ff;
+    font-weight: 600;
+}

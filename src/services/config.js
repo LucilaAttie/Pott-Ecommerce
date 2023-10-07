@@ -7,11 +7,11 @@ import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_apiKey,
-  authDomain: "pott-ecommerce.firebaseapp.com",
-  projectId: "pott-ecommerce",
-  storageBucket: "pott-ecommerce.appspot.com",
-  messagingSenderId: "1023846217218",
-  appId: "1:1023846217218:web:404dbead682e66ae92191b"
+  authDomain: process.env.REACT_APP_authDomain ,
+  projectId: process.env.REACT_APP_projectId ,
+  storageBucket: process.env.REACT_APP_storageBucket ,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId ,
+  appId: process.env.REACT_APP_appId 
 };
 
 
