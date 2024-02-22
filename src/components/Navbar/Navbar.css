@@ -23,6 +23,12 @@ nav {
     width: 80%;
 }
 
+.nav-item {
+    padding: 0 1rem 0 1rem;
+    margin: 0;
+}
+
+
 .brandContainer {
     display: flex;
     gap: 1rem;
@@ -32,3 +38,19 @@ nav {
     height: 2rem;
 
 }
+
+@media (max-width: 992px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0.5rem; /* Puedes ajustar este valor según necesites */
+    }
+}
+
+
